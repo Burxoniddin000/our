@@ -1,0 +1,38 @@
+.sitx-main__about-img {
+    position: relative;
+}
+
+
+.sitx-main__about {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-top: 44px;
+
+}
+
+.sitx-main__about-taxt {
+    position: absolute;
+    top: 130px;
+    margin-left: 85px;
+    margin-top: 137px;
+}
+
+.sitx-main__about-taxt h1 {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.sitx-main__about-taxt p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    max-width: 445px;
+    margin-top: 24px;
+}

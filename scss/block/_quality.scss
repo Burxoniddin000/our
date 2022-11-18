@@ -1,0 +1,47 @@
+.sixt-main__quality {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.sixt-main__quality-img {
+    position:absolute;
+    z-index: 2;
+    right: 85px;
+   bottom: 88px;
+}
+
+.sitx-main__quality-taxt {
+    position: relative;
+    background: #2C343E;
+    border-radius: 10px;
+    max-width: 1280;
+    height: 474px;
+    margin-top: 256px;
+}
+
+.sitx-main__quality-inner {
+    padding-top: 88px;
+    margin-left: 85px;
+}
+
+.sitx-main__quality-taxt h2 {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.sitx-main__quality-taxt p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    max-width: 540px;
+    margin-top: 32px;
+}

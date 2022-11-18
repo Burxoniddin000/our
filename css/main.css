@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Happy+Monkey&family=Inter:wght@400;500;600&family=Libre+Franklin:wght@700&family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&family=Happy+Monkey&family=Inter:wght@400;500;600&family=Libre+Franklin:wght@700&family=Open+Sans:wght@400;700&display=swap");
+html {
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  margin: 0 20px;
+}
+
+.sitx-header {
+  margin-top: 44px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.sitx-header__inner-link {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.sitx-header__link {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83888F;
+}
+
+.sitx-main__about-img {
+  position: relative;
+}
+
+.sitx-main__about {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding-top: 44px;
+}
+
+.sitx-main__about-taxt {
+  position: absolute;
+  top: 130px;
+  margin-left: 85px;
+  margin-top: 137px;
+}
+
+.sitx-main__about-taxt h1 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+}
+
+.sitx-main__about-taxt p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  max-width: 445px;
+  margin-top: 24px;
+}
+
+.sitx-main__our {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1117px;
+  margin: 0 auto;
+  padding-top: 168px;
+}
+
+.our-img {
+  max-width: 445px;
+  height: 520px;
+}
+
+.sitx-main__our-text h2 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+  margin-bottom: 32px;
+}
+
+.sitx-main__our-text p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  opacity: 0.8;
+  max-width: 540px;
+}
+
+.sixt-main__quality {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.sixt-main__quality-img {
+  position: absolute;
+  z-index: 2;
+  right: 85px;
+  bottom: 88px;
+}
+
+.sitx-main__quality-taxt {
+  position: relative;
+  background: #2C343E;
+  border-radius: 10px;
+  max-width: 1280;
+  height: 474px;
+  margin-top: 256px;
+}
+
+.sitx-main__quality-inner {
+  padding-top: 88px;
+  margin-left: 85px;
+}
+
+.sitx-main__quality-taxt h2 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+}
+
+.sitx-main__quality-taxt p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  max-width: 540px;
+  margin-top: 32px;
+}
+
+.sixt-main__state {
+  max-width: 915px;
+  margin: 0 auto;
+  padding-top: 168px;
+}
+
+.sixt-main__state-imge {
+  margin-top: 72px;
+}
+
+.sixt-main__state h2 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+}
+
+.sixt-main__state-taxt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sixt-main__state-taxt-inner > h3 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  margin-top: 46px;
+}
+
+.sixt-main__state-taxt-inner > p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  max-width: 160px;
+  margin-top: 24px;
+}
+
+.sitx-footer {
+  background: #2C343E;
+  margin-top: 168px;
+  margin-bottom: 88px;
+}
+
+.sitx-footer__container {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 47px 0;
+}
+
+.sitx-footer-link {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83888F;
+}
+
+.sitx-footer__inner {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+
+.sitx-footer__ikonka {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}/*# sourceMappingURL=main.css.map */
